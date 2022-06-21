@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de fotos</title>
+    <link rel="stylesheet" href="main.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="fullImg" id="fullImgBox">
+            <img src="/Animales/ardilla-9845.jpg" id="fullImg" alt="">
+            <span onclick="closeImg()">X</span>
+        </div>
+        <header>
+    <h1>Galería de imágenes</h1>
+</header>
+<nav class="nav-bar">
+    <button class="nav-toggle">
+        <i class='bx bx-menu'></i>
+    </button>
+<ul class="navbar-menu">
+    <li>
+        <a href="deporte.html">Deporte</a>
+    </li>
+    <li>
+        <a href="universo.html">Universo</a>
+    </li>
+    <li>
+        <a href="paisajes.html">Paisajes</a>
+    </li>
+    <li>
+        <a href="scifi.html">Juegos</a>
+    </li>
+    <li>
+        <a href="index.html">Animales</a>
+    </li>
+</ul>
+</nav>
+</header>
+
+    <div class="separador"></div>
+
+    <div class="galery-container">
+        <ul class="galery">
+            <li>
+                <img class="img" src="aurora-polar-reflejada-con-montanas-en-lago-9901.jpg"  onclick="openImg(this.src)" alt="aurora-polar-reflejada-con-montanas-en-lago-9901">
+            </li>
+            <li>
+                <img class="img" src="cabana-rodeada-de-palmas-y-montana-9545.jpg"  onclick="openImg(this.src)" alt="cabana-rodeada-de-palmas-y-montana-9545">
+            </li>
+            <li>
+                <img class="img" src="capilla-frente-a-rio-al-atardecer-9821.jpg"  onclick="openImg(this.src)" alt="capilla-frente-a-rio-al-atardecer-9821">
+            </li>
+            <li>
+                <img class="img" src="cascada-congelada-9534.jpg"  onclick="openImg(this.src)" alt="cascada-congelada-9534">
+            </li>
+            <li>
+                <img class="img" src="cascada-en-bosque-10099.jpg"  onclick="openImg(this.src)" alt="cascada-en-bosque-10099">
+            </li>
+            <li>
+                <img class="img" src="cerezo-en-castillo-japones-en-el-monte-fuji-9875.jpg"  onclick="openImg(this.src)" alt="cerezo-en-castillo-japones-en-el-monte-fuji-9875">
+            </li>
+            <li>
+                <img class="img" src="cueva-de-rocas-de-hielo-9833.jpg"  onclick="openImg(this.src)" alt="cueva-de-rocas-de-hielo-9833">
+            </li>
+            <li>
+                <img class="img" src="edificios-viejos-10117.jpg"  onclick="openImg(this.src)" alt="edificios-viejos-10117">
+            </li>
+            <li>
+                <img class="img" src="flores-a-traves-de-montanas-al-atardecer-9883.jpg" onclick="openImg(this.src)"  alt="flores-a-traves-de-montanas-al-atardecer-9883">
+            </li>
+            <li>
+                <img class="img" src="montana-en-la-naturaleza-canada-10154.jpg"  onclick="openImg(this.src)" alt="montana-en-la-naturaleza-canada-10154">
+            </li>
+            <li>
+                <img class="img" src="noche-con-cielo-estrellado-10152.jpg"  onclick="openImg(this.src)" alt="noche-con-cielo-estrellado-10152">
+            </li>
+            <li>
+                <img class="img" src="paisaje-nevado-en-el-bosque-arte-digital-9759.jpg"  onclick="openImg(this.src)" alt="paisaje-nevado-en-el-bosque-arte-digital-9759">
+            </li>
+            <li>
+                <img class="img" src="parlamento-en-ottawa-canada-9556.jpg"  onclick="openImg(this.src)" alt="parlamento-en-ottawa-canada-9556">
+            </li>
+            <li>
+                <img class="img" src="pinos-en-el-bosque-9856.jpg"  onclick="openImg(this.src)" alt="pinos-en-el-bosque-9856">
+            </li>
+            <li>
+                <img class="img" src="rayo-durante-tormenta-en-las-montanas-10012.jpg"  onclick="openImg(this.src)" alt="rayo-durante-tormenta-en-las-montanas-10012">
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <h3>Matias Garay</h3>
+        <h4>Front-End Developer</h4>
+        <ul class="contactos">
+            <li>
+                <a class="a" href="mailto:magaray871@gmail.com" target="_blank"><i class='bx bxs-envelope'></i></a>
+            </li>
+            <li>
+                <a class="a" href="https://github.com/matiasGaray" target="_blank"><i class='bx bxl-github'></i></a>
+            </li>
+            <li>
+                <a class="a"  href="https://www.linkedin.com/in/matias-garay-b37386214/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </li>
+            <li>
+                <a class="a" href="https://wa.me/542616207949?text=Hola,%20quiero%20información" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </li>
+        </ul>
+    </footer>
+
+</div>
+<script src="main.js"></script>
+</body>
+</html>
